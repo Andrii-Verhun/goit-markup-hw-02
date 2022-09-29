@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'roboto', 'raleway', sans-serif;
+    font-family: 'roboto', sans-serif;
     color: #212121;
     background: #FFFFFF;
 }
@@ -19,6 +19,17 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #000000;
+}
+
+.style-logo-footer {
+        font-family: 'Raleway';
+        font-style: normal;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: #fff;
 }
 
 .style-logo-add {
@@ -39,10 +50,11 @@ body {
 
 .navigation-item {
     text-decoration: none;
+    color: inherit;
 }
 
 .navigation-item:visited {
-    color: #212121;
+    color: inherit;
 }
 
 .navigation-item:hover {
@@ -85,6 +97,7 @@ body {
 }
 
 .top-button {
+    font-family: inherit;
     background: var(--brand-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -170,7 +183,7 @@ body {
 
 .profession {
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--brand-color-text);
@@ -189,10 +202,12 @@ body {
 }
 
 .contacts-footer {
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--brand-color-text);
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .contacts-footer:hover {
@@ -208,6 +223,7 @@ body {
 }
 
 .projects-filter-item {
+    font-family: inherit;
     background: #F5F4FA;
     border-radius: 4px;
     font-weight: 500;
